@@ -205,6 +205,6 @@ h2 {
 
 @media screen and (max-width: 320px) {
    .image{
-      width: 100%;
+      width: 120%;
     }
 }
