@@ -213,6 +213,22 @@ h2 {
     }
 }
 
+.iframe{
+  /* 縦横300pxにがっちり固定 */
+  width: 300px;
+  height: 300px;
+  /* 固定した幅からはみ出たものは隠してしまう */
+  overflow: hidden;
+}
+/* 画像スケール */
+iframe{
+  width: 300px;
+  height: 300px;
+  /* ヌルッと動くように */
+  transition: 0.3s;
+}
+/* ボバー時のアクション */
 iframe:hover{
-  transform: scale(2.0);
+  /* transformは変形プロパティ。値にscaleを指定すると拡大縮小することができる。 */
+  transform: scale(2.5);
 }
