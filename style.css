@@ -193,6 +193,10 @@ h2 {
     .title{
       font-size: 50px;
     }
+    .image{
+      width: 800px;
+      height: 500px;
+    }
   }
 
 @media screen and (max-width: 599px) {
